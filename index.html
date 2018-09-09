@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>首页</title>
+<link rel="stylesheet" href="CSS/normalize.css"/>
+<link rel="stylesheet" href="CSS/public.css"/>
+<link rel="stylesheet" href="CSS/index.css"/>
+<script type="text/javascript" src="js/window.js"></script>
+<script type="text/javascript" src="js/other.js"></script>
+</head>
+
+<body>
+<!-- header -->
+<header> 
+  <!--logo-->
+  <div class="top w">
+    <div class="fl" id="logo"> <a href="index.html"> <img src="img/logo.gif"> </a> </div>
+    <div class="fl" > 
+      
+      <!--telephone-->
+      <div class="telephone">
+        <p>美威服务热线 ：400-1234-567</p>
+      </div>
+      
+      <!--label-->
+      <div class="label" >
+        <ul class="fl" id="list">
+          <li class="list_item list_item_checked"> <a href="#">美威首页</a> </li>
+          <li class="space"></li>
+          <li class="list_item"> <a href="#">关于我们</a> </li>
+          <li class="space"></li>
+          <li class="list_item"> <a href="#">产品中心</a> </li>
+          <li class="space"></li>
+          <li class="list_item"> <a href="#">客户案例</a> </li>
+          <li class="space"></li>
+          <li class="list_item"> <a href="#">招商加盟</a> </li>
+          <li class="space"></li>
+          <li  class="list_item"> <a href="#">新闻资讯</a> </li>
+          <li class="space"></li>
+          <li class="list_item"> <a href="#">服务中心</a> </li>
+          <li class="space"></li>
+          <li class="list_item"> <a href="#">联系我们</a> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!--body-->
+<div class="middle w">
+  <div id="picture"> 
+    <!-- 创建一个ul，用于放置图片 -->
+    <ul id="imgList">
+		<li class="pic_item pic_item_checked"><img src="img/background1.gif"/></li>
+		<li class="pic_item"><img src="img/background2.jpg"/></li>
+		<li class="pic_item"><img src="img/background3.jpg"/></li>
+		<li class="pic_item"><img src="img/background4.jpg"/></li>
+		<li class="pic_item"><img src="img/background5.jpg"/></li>
+		<li class="pic_item"><img src="img/background1.gif"/></li>
+    </ul>
+	<!--导航标签-->
+	<div id="navDiv">
+	    <a href="javascript:;"></a>
+		<a href="javascript:;"></a>
+		<a href="javascript:;"></a>
+		<a href="javascript:;"></a>
+		<a href="javascript:;"></a>
+	</div>
+  </div>
+</div>
+<!--搜索-->
+<div class="w search">
+	<!--热搜-->
+	<div class="fl searchRecommend">
+		<ul>
+			<li>大家都在搜：</li>
+			<li><a href="#">热芯榆木</a></li>
+			<li class="space"></li>
+			<li><a href="#">软木地板</a></li>
+			<li class="space"></li>
+			<li><a href="#">红木地板</a></li>
+		</ul>
+	</div>
+	<!--搜索框-->
+	<div class="fl searchContent">
+		<form>
+			<!--输入--><!--autofocus-->
+			<input type="text"  name="search" value="  请输入关键词搜索" autocomplete="on" class="fl searchInput" id="Input" onFocus="textfocus(this,'  请输入关键词搜索')" onBlur="textblur(this,'  请输入关键词搜索')">
+			<!--按钮-->
+			<input type="button" class="searchButton fl" onClick="searchclick()"><i></i>
+		</form>
+	</div>
+<!--推荐栏-->
+<div class="w recommend">
+	<!--推荐的表头-->
+	<div class="recommendTitle fl">
+		<div class="Titlespace"></div>
+		<div class="TitleWord fl">
+			<h1>产品推荐</h1>
+			<p>PRODUCT</p>
+		</div>
+		<div class="Titlespace fl"></div>
+	</div>
+	<!--推荐内容-->
+	<div class="recommendContent wBottom">
+		<!--图片-->
+		<div class="ContentPicture">
+			<ul class="pic pic1">
+				<li><a href="#"><img src="img/pic1.gif" height="300" width="325"></a></li>
+			</ul>
+			<ul class="pic pic2">
+				<li><a href="#"><img src="img/pic2.gif" height="300" width="325"></a></li>
+			</ul>
+			<ul class="pic pic3">
+				<li><a href="#"><img src="img/pic3.gif"  height="300" width="325"></a></li>
+			</ul>
+		</div>
+		<!--按钮-->
+		<a href="#">
+			<div class="ContentMore">
+				<h1>More</h1>
+			</div>
+		</a>
+	</div>
+	
+	<!--底部-->
+	<div class="bottom">
+		<!--信息栏-->
+		<div class="wBottom information">
+			<!--二维码-->
+			<div class="code fl">
+				<img src="img/code.gif">
+			</div>
+			<!--链接栏-->
+			<div class="informationUrl fl">
+				<ul class="fl Url">
+					<li class="url1 urlTitle"><p>关于美威</p></li>
+					<li class="url1"><a href="#"><p>企业介绍</p></a></li>
+					<li class="url1"><a href="#"><p>企业文化</p></a></li>
+					<li class="url1"><a href="#"><p>人才招聘</p></a></li>
+				</ul>
+				<ul class="fl Url">
+					<li class="url1 urlTitle"><p>招商加盟</p></li>
+					<li class="url1"><a href="#"><p>加盟优势</p></a></li>
+					<li class="url1"><a href="#"><p>加盟流程</p></a></li>
+					<li class="url1"><a href="#"><p>加盟条件</p></a></li>
+					<li class="url1"><a href="#"><p>加盟政策</p></a></li>
+				</ul>
+				<ul class="fl Url">
+					<li class="url1 urlTitle"><p>新闻资讯</p></li>
+					<li class="url1"><a href="#"><p>公司新闻</p></a></li>
+					<li class="url1"><a href="#"><p>行业动态</p></a></li>
+					<li class="url1"><a href="#"><p>视频中心</p></a></li>
+				</ul>
+			</div>
+		</div>
+		<!--公司标识-->
+		<div class="company wBottom">
+			<p>Copyright&copy;2005-2016广州美威地板材料&nbsp;粤ICP备1234567号-1</p>
+		</div>
+	</div>
+	
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,265 @@
+@charset "utf-8";
+/* CSS Document */
+
+.top{
+	width:1280px;
+	height: 126px;
+	position: relative;
+}
+
+/*logo*/
+#logo{
+	position: absolute;
+	left: 110px;
+	top: 35px;
+}
+
+/*联系电话*/
+.telephone{
+	width: 872px;
+	height: 77px;
+	text-align:center;
+	color: #c41723;
+	font-size: 18px;
+	line-height: 77px;
+	position: absolute;
+	left: 518px;
+	font-weight: 500; 
+}
+
+/*标签*/
+.label{
+	width: 852px;
+	height: 55px;
+	font-size: 16px;
+	line-height: 42px;
+	font-weight: 500;
+	text-align: center;
+	position: relative;
+	left: 428px;
+	top: 77px;
+}
+.label li{
+	float: left;
+	color: #565656;
+}
+.label li a{
+	display: inline-block;
+	width: 92px;
+	height: 49px;
+	text-overflow: ellipsis;
+}
+.label li a:hover{
+	color: #cc0000;
+	background: url(../img/arrow.png) no-repeat 15px 40px;
+}
+
+/*轮播*/
+#picture{
+	width: 1280px;
+	height: 610px;
+	position: relative;
+	margin: 0 auto;
+	/*裁剪溢出的内容*/
+	overflow: hidden;
+}
+/*图片*/
+#imgList{
+	position: absolute;
+	left: 0px;
+}
+#imgList li{
+	float:left;
+	position: relative;
+}
+/*导航按钮*/
+#navDiv{
+	position: absolute;
+	bottom: 30px;
+}
+#navDiv a{
+	float: left;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-color:white; 
+	margin: 0 12px;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	border-radius:10px;
+}
+/*设置鼠标移入的效果*/
+#navDiv a:hover{
+	background-color: #c41723;
+}
+
+
+/*搜索（总）*/
+.search{
+	background: #2d2620;
+	height: 100px;
+	position: relative;
+}
+/*搜索（推荐）*/
+.searchRecommend{
+	position: absolute;
+	left: 110px;
+	top: 23px;
+	width: 760px;
+	height: 47px;
+}
+.searchRecommend li{
+	float: left;
+	color: #cacccc;
+	font-size: 14px;
+	position: relative;
+	top:10px;
+	left: 16px;
+}
+.searchRecommend li a{
+	color: #cacccc;
+	text-overflow: ellipsis;
+}
+.searchRecommend li a:hover{
+	color: #cc0000;
+}
+.searchRecommend .space{
+	height: 10px;
+	margin: 0 12px;
+	position: relative;
+	top: 13px;
+}
+/*搜索（内容）*/
+.searchContent{
+	width: 285px;
+	height: 35px;
+	position: absolute;
+	top: 23px;
+	left: 872px;
+	border: 1px solid #b8b8b8;
+}
+.searchContent .searchInput{
+	width: 220px;
+	height: 29px;
+	color: #b8b8b8;
+	font-size: 14px;
+    text-overflow: ellipsis;
+}
+.searchContent .searchButton{
+	width: 61px;
+	height: 35px;
+}
+.searchContent i{
+	font-family: "icomoon";
+	color: #afb2b2;
+	font-style: normal;
+	position: absolute;
+	top:8px;
+	left:245px;
+}
+
+/*推荐栏（总）*/
+.recommend{
+	width: 1280px;
+	height: 543px;
+	position: relative;
+	top: 100px;
+}
+/*<!--推荐栏（标题）-->*/
+.recommendTitle{
+	width: 1280px;
+	height: 121px;
+	position: absolute;
+}
+.recommendTitle .TitleWord{
+	width: 183px;
+	position: relative;
+	left: 549px;
+	top:44px;
+}
+.TitleWord h1{
+	color: #333232;
+	font-size: 30px;
+	text-align: center;
+}
+.TitleWord p{
+	color: #999999;
+	font-size: 10px;
+	text-align: center;
+	position: relative;
+	top: 10px;
+}
+
+/*<!--推荐栏（内容）-->*/
+.recommendContent{
+	height: 420px; 
+	position: relative;
+	top: 121px;
+}
+/*推荐图片*/
+.ContentPicture{
+	height: 330px;
+	width: 100%;
+}
+/*推荐more*/
+.ContentMore{
+	height: 60px;
+	background: #3f3a37;
+	position: relative;
+}
+.ContentMore h1{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	font-size: 15px;
+	font-weight: 400;
+	color: #ecebe7;
+	text-align:center;
+	line-height: 60px;
+	position: absolute;
+	left: 0px;
+}
+
+/*底部（总）*/
+.bottom{
+	width: 1280px;
+	height: 345px;
+	background: #2e2a27;
+	position: relative;
+	top: 121px;
+}
+/*底部上半部分*/
+.information{
+	height: 300px;
+	border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+/*二维码*/
+.information .code{
+	width: 179px;
+	height: 300px;
+	position: absolute;
+}
+.information img{
+	position: absolute;
+	left: 50px;
+	top:75px;
+}
+
+/*信息链接栏*/
+.informationUrl{
+	height: 300px;
+	width: 850px;
+	position: absolute;
+	left: 304px;
+}
+/*公司标识*/
+.company{
+	height: 43px;
+	font-size: 14px;
+	line-height: 43px;
+	font-weight: 400;
+	
+}
+.company p{
+	color: rgba(255,255,255,0.6);
+}

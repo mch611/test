@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*版心居中*/
+.w{
+	width:1280px;
+	margin:0 auto ;
+}
+
+/*清除样式*/
+a,ul,li,h1,h2,h3,h4,h5,h6,p,span,img{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/*左浮*/
+.fl{
+	float:left;
+}
+
+/*右浮*/
+.fr{
+	float:right;
+}
+
+/*a取消下划线*/
+a{
+	text-decoration: none;
+	color: #565656;
+}
+
+/*小竖线*/
+.space{
+	width: 1px;
+	height: 13px;
+	background: #565656;
+	margin-top: 16px;
+}
+/*大横线*/
+.Titlespace{
+	width: 100px;
+	height: 1px;
+	background: #999999;
+	position: absolute;
+	top: 64px;
+}
+.Titlespace:first-child{
+	left: 449px;
+}
+.Titlespace:last-child{
+	left:732px;
+}
+
+/**底部、推荐版心*/
+.wBottom{
+	width: 1030px;
+	margin: 0 auto;
+}
+
+
+/*推荐图片*/
+.pic{
+	float: left;
+	position: absolute;
+	width: 33%;
+	height: 300px;
+	margin-left: 28px;
+}
+.pic:first-child{
+	margin-left: 0px;
+}
+.pic2{
+	margin-left: 352px
+}
+.pic3{
+	margin-left: 705px
+}
+.pic a{
+	width: 325px;
+	height: 300px;
+}
+
+
+/*链接标签*/
+.Url{
+	margin-left: 157px;
+	width: 126px;
+	height: 300px;
+}
+/*连接小标签1*/
+.url1{
+	height: 14px;
+	margin-top: 34px;
+	font-size: 14px;
+	line-height: 14px;
+	text-align: center;
+	font-weight: 400;
+}
+.url1:first-child{
+	margin-top: 49px;
+	height: 31px;
+	font-size: 17px;
+	line-height: 31px;
+	font-weight: 600;
+}
+.url1 p{
+	color: rgba(255,255,255,0.6);
+	text-overflow: ellipsis;
+}
+.urlTitle p{
+	color: rgba(255,255,255,0.8);
+	text-overflow: ellipsis;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
